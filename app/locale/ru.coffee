@@ -2872,7 +2872,7 @@ module.exports = nativeDescription: "русский", englishDescription: "Russi
     third_party_description: "CodeCombat использует следующие сторонние сервисы (среди прочих):"
     cookies_message: "CodeCombat использует постоянные и сеансовые куки."
     cookies_deny: "Отказаться от использования сеансовых куки"
-#    cookies_allow: "Allow cookies"
+    cookies_allow: "Разрешить использование сеансовых куки"
 
   calendar:
     year: "Год"
@@ -2901,8 +2901,8 @@ module.exports = nativeDescription: "русский", englishDescription: "Russi
   server_error:
     email_taken: "Данный емейл уже занят"
     username_taken: "Данное имя пользователя уже занято"
-#    easy_password: "Password is too easy to guess"
-#    reused_password: "Password cannot be reused"
+    easy_password: "Введенный пароль слишком простой"
+    reused_password: "Пароль нельзя использовать повторно"
 
   esper:
     line_no: "Строка $1: "
@@ -3228,9 +3228,9 @@ module.exports = nativeDescription: "русский", englishDescription: "Russi
     download: "Скачай Chrome"
     ignore: "Игнорирую"
 
-#  admin:
-#    license_type_full: "Full Courses"
-#    license_type_customize: "Customize Courses"
+  admin:
+    license_type_full: "Все курсы"
+    license_type_customize: "Выбранные курсы"
 
 #  outcomes:
 #    school_admin: "School Administrator"
@@ -3372,9 +3372,9 @@ module.exports = nativeDescription: "русский", englishDescription: "Russi
 #    homeschooling: "Homeschooling Licenses"
 #    recurring: {"month_1":"Recurring billing every month","month_3":"Recurring billing every 3 months","month_6":"Recurring billing every 6 months","year_1":"Recurring billing every year"}
 
-#  form_validation_errors:
-#    required: "Field is required"
-#    invalidEmail: "Invalid email"
-#    invalidPhone: "Invalid phone number"
-#    emailExists: "Email already exists"
-#    numberGreaterThanZero: "Should be a number greater than 0"
+  form_validation_errors:
+    required: "Поле обязательно для заполнения"
+    invalidEmail: "Неверный почтовый адрес"
+    invalidPhone: "Неверный номер телефона"
+    emailExists: "Введенный почтовый адрес уже существует"
+    numberGreaterThanZero: "Значение должно быть больше 0"
